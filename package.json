@@ -1,0 +1,15 @@
+{
+  "name": "i2b_restapi_moc",
+  "version": "1.0.0",
+  "description": "Mocking server for STC-I2B project.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mohamed Moumen",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
