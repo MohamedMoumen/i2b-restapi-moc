@@ -1,19 +1,523 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "json-serverrrr",
-            "author": "typicode"
-        }
+    "programStatistics": {
+      "totalPrograms": 20,
+      "inProgress": 10,
+      "onHold": 3,
+      "completed": 7
+    },
+    "programMyRequests": [
+      {
+        "status": "reviewing",
+        "statusColor": "",
+        "icon": "",
+        "time": "11:30 AM",
+        "description": "Work From Home Solution For Businesses Under Review",
+        "by": "Fareed Al Emad",
+        "id": "1"
+      },
+      {
+        "status": "accepted",
+        "statusColor": "",
+        "icon": "",
+        "time": "11:30 AM",
+        "description": "Work From Home Solution For Businesses Program Accepted",
+        "by": "Fareed Al Emad",
+        "id": "2"
+      }
     ],
-    "comments": [
-        {
-            "id": 1,
-            "body": "some comment",
-            "postId": 1
-        }
+    "programRecentUpdates": [
+      {
+        "time": "11:30 AM",
+        "type": "new demand added",
+        "typeColor": "",
+        "title": "STC partners with Curiosity Stream to bring award",
+        "by": "Fareed Al Emad",
+        "id": "1"
+      },
+      {
+        "time": "11:30 AM",
+        "type": "new demand added",
+        "typeColor": "",
+        "title": "STC partners with Curiosity Stream to bring award",
+        "by": "Fareed Al Emad",
+        "id": "2"
+      },
+      {
+        "time": "11:30 AM",
+        "type": "new demand added",
+        "typeColor": "",
+        "title": "STC partners with Curiosity Stream to bring award",
+        "by": "Fareed Al Emad",
+        "id": "3"
+      }
     ],
-    "profile": {
-        "name": "typicodeeee"
-    }
-}
+    "programMyTasks": [
+      {
+        "type": "review request",
+        "icon": "",
+        "taskCategory": "demand",
+        "time": "11:30 AM",
+        "description": "Work From Home Solution For portfolio under review",
+        "by": {
+          "image": "",
+          "name": "Aqila Ahmed",
+          "title": "Brand Manager Director"
+        },
+        "timeLeft": 2,
+        "id": "1"
+      },
+      {
+        "type": "new invite",
+        "icon": "",
+        "taskCategory": "demand",
+        "time": "11:30 AM",
+        "description": "Work From Home Solution For portfolio under review",
+        "by": {
+          "image": "",
+          "name": "Aqila Ahmed",
+          "title": "Brand Manager Director"
+        },
+        "timeLeft": 5,
+        "id": "1"
+      }
+    ],
+    "com-statistics": {
+      "surveysPending": 3,
+      "totalTasks": 33,
+      "newTasks": 5,
+      "validatedTasks": 33,
+      "newPortolfioTasks": 16,
+      "newProgramTasks": 10,
+      "newDemandTasks": 8
+    },
+    "com-myRequests": [
+      {
+        "status": "updated",
+        "statusColor": "",
+        "icon": "",
+        "type": "portfolio",
+        "time": "11:30 AM",
+        "description": "Work From Home Solution For Businesses",
+        "by": "Fareed Al Emad",
+        "timeLeft": 2,
+        "id": "1"
+      },
+      {
+        "status": "under review",
+        "statusColor": "",
+        "icon": "",
+        "type": "portfolio",
+        "time": "11:30 AM",
+        "description": "Work From Home Solution For Businesses",
+        "by": "Fareed Al Emad",
+        "timeLeft": 3,
+        "id": "2"
+      },
+      {
+        "status": "under review",
+        "statusColor": "",
+        "icon": "",
+        "type": "portfolio",
+        "time": "11:30 AM",
+        "description": "API Test",
+        "by": "Fareed Al Emad",
+        "timeLeft": 3,
+        "id": "3"
+      }
+    ],
+    "portfolioApprovalRequests": [
+      {
+        "portfolioMgr": "Mansoor el-Salik",
+        "title": "New brand identity with Fibre",
+        "sector": "Management",
+        "createdDate": "10-01-2021",
+        "dealine": "3 Days",
+        "description": "Detailed desc",
+        "id": "234"
+      },
+      {
+        "portfolioMgr": "Ahmad Ashraf",
+        "title": "New request for approval",
+        "sector": "Management",
+        "createdDate": 1638445296610,
+        "deadline": "10 days",
+        "description": "This is a desccc",
+        "id": "4ZYDIVx"
+      }
+    ],
+    "com-recentUpdates": [
+      {
+        "time": "11:30 AM",
+        "type": "new program added",
+        "typeColor": "",
+        "title": "STC partners with Curiosity Stream to bring award",
+        "by": "Fareed Al Emad",
+        "id": "1"
+      },
+      {
+        "time": "11:30 AM",
+        "type": "program removed",
+        "typeColor": "",
+        "title": "STC partners with Curiosity Stream to bring award",
+        "by": "Fareed Al Emad",
+        "id": "2"
+      },
+      {
+        "time": "11:30 AM",
+        "type": "new demand created",
+        "typeColor": "",
+        "title": "STC partners with Curiosity Stream to bring award",
+        "by": "Fareed Al Emad",
+        "id": "3"
+      }
+    ],
+    "com-myTasks": [
+      {
+        "type": "review request",
+        "icon": "",
+        "taskCategory": "portfolio",
+        "time": "11:30 AM",
+        "description": "Work From Home Solution For Businesses Updated",
+        "by": {
+          "image": "",
+          "name": "Aqila Ahmed",
+          "title": "Brand Manager Director"
+        },
+        "timeLeft": 2,
+        "id": "1"
+      }
+    ],
+    "programCom-statistics": {
+      "surveysPending": 3,
+      "totalTasks": 33,
+      "newTasks": 5,
+      "validatedTasks": 33,
+      "newPortolfioTasks": 16,
+      "newProgramTasks": 10,
+      "newDemandTasks": 8
+    },
+    "programCom-myRequests": [
+      {
+        "status": "updated",
+        "statusColor": "",
+        "icon": "",
+        "type": "portfolio",
+        "time": "11:30 AM",
+        "description": "Work From Home Solution For Businesses",
+        "by": "Fareed Al Emad",
+        "timeLeft": 2,
+        "id": "1"
+      },
+      {
+        "status": "under review",
+        "statusColor": "",
+        "icon": "",
+        "type": "portfolio",
+        "time": "11:30 AM",
+        "description": "Work From Home Solution For Businesses",
+        "by": "Fareed Al Emad",
+        "timeLeft": 3,
+        "id": "2"
+      },
+      {
+        "status": "under review",
+        "statusColor": "",
+        "icon": "",
+        "type": "portfolio",
+        "time": "11:30 AM",
+        "description": "API Test",
+        "by": "Fareed Al Emad",
+        "timeLeft": 3,
+        "id": "3"
+      }
+    ],
+    "programCom-recentUpdates": [
+      {
+        "time": "11:30 AM",
+        "type": "new program added",
+        "typeColor": "",
+        "title": "STC partners with Curiosity Stream to bring award",
+        "by": "Fareed Al Emad",
+        "id": "1"
+      },
+      {
+        "time": "11:30 AM",
+        "type": "program removed",
+        "typeColor": "",
+        "title": "STC partners with Curiosity Stream to bring award",
+        "by": "Fareed Al Emad",
+        "id": "2"
+      },
+      {
+        "time": "11:30 AM",
+        "type": "new demand created",
+        "typeColor": "",
+        "title": "STC partners with Curiosity Stream to bring award",
+        "by": "Fareed Al Emad",
+        "id": "3"
+      }
+    ],
+    "programCom-myTasks": [
+      {
+        "type": "review request",
+        "icon": "",
+        "taskCategory": "portfolio",
+        "time": "11:30 AM",
+        "description": "Work From Home Solution For Businesses Updated",
+        "by": {
+          "image": "",
+          "name": "Aqila Ahmed",
+          "title": "Brand Manager Director"
+        },
+        "timeLeft": 2,
+        "id": "1"
+      },
+      {
+        "type": "review request",
+        "icon": "",
+        "taskCategory": "program",
+        "time": "11:30 AM",
+        "description": "Work From Home Solution For Businesses",
+        "by": {
+          "image": "",
+          "name": "Aqila Ahmed",
+          "title": "Brand Manager Director"
+        },
+        "timeLeft": 5,
+        "id": "2"
+      },
+      {
+        "type": "review request",
+        "icon": "",
+        "taskCategory": "portfolio",
+        "time": "11:30 AM",
+        "description": "Work API Solution For Businesses Updated",
+        "by": {
+          "image": "",
+          "name": "Aqila Ahmed",
+          "title": "Brand Manager Director"
+        },
+        "timeLeft": 2,
+        "id": "3"
+      }
+    ],
+    "statistics": {
+      "totalPortfolios": 20,
+      "inProgress": 10,
+      "onHold": 3,
+      "completed": 7
+    },
+    "recentUpdates": [
+      {
+        "date": "Today 10:30 AM",
+        "title": "Portfolio Accepted",
+        "portfolio": "Self Care Portal",
+        "program": "See more details",
+        "id": "1"
+      },
+      {
+        "date": "Today 12:45 PM",
+        "title": "Program Linked To Portfolio",
+        "portfolio": "Product Innovation Roadmap",
+        "program": "Services and Software Updates",
+        "id": "2"
+      },
+      {
+        "date": "Today 02:15 PM",
+        "title": "Portfolio Accepted",
+        "portfolio": "Work From Home Solution For Businesses",
+        "program": "Online Services and Software Updates",
+        "id": "3"
+      }
+    ],
+    "myRequests": [
+      {
+        "icon": "heroicons_outline:clock",
+        "bgColor": "bg-stc_green",
+        "title": "Awaiting Approval",
+        "description": "Work From Home Solution",
+        "id": "57Ul_Yl"
+      },
+      {
+        "icon": "heroicons_outline:clock",
+        "bgColor": "bg-stc_green",
+        "title": "Awaiting Approval",
+        "description": "Mohamed Moumen's idea for creating new stuff",
+        "id": "y5GlOPm"
+      },
+      {
+        "icon": "heroicons_outline:clock",
+        "bgColor": "bg-stc_green",
+        "title": "Awaiting Approval",
+        "description": "New Name",
+        "id": "RMKbLSi"
+      }
+    ],
+    "myTasks": [
+      {
+        "icon": "heroicons_outline:calendar",
+        "bgColor": "bg-stc_blue",
+        "title": "Update Request",
+        "description": "Network to the remotest corners",
+        "id": "235324560"
+      },
+      {
+        "icon": "heroicons_outline:calendar",
+        "bgColor": "bg-stc_blue",
+        "title": "Update Request",
+        "description": "Network to the remotest corners",
+        "id": "235324560"
+      },
+      {
+        "icon": "heroicons_outline:calendar",
+        "bgColor": "bg-stc_blue",
+        "title": "Update Request",
+        "description": "Network to the remotest corners",
+        "id": "235324560"
+      }
+    ],
+    "portfolios": [
+      {
+        "portfolioName": "please work",
+        "email": "myemail@mail.com",
+        "description": "work god damn it",
+        "status": "submitted",
+        "creationDate": 1638197867465,
+        "id": "asdcWd"
+      },
+      {
+        "portfolioName": "Mohamed Moumen's idea for creating new stuff",
+        "email": "mail@someone.com",
+        "description": "Desciptiontiption",
+        "status": "Accepted",
+        "creationDate": 1638445112903,
+        "id": "y5GlOPm"
+      },
+      {
+        "portfolioName": "New request for approval",
+        "email": "newrequest@moumo.com",
+        "description": "This is a desccc",
+        "status": "submitted",
+        "creationDate": 1638445278797,
+        "id": "4ZYDIVx"
+      },
+      {
+        "portfolioName": "New Name",
+        "email": "newmail@mail.com",
+        "description": "This is a new nameee",
+        "status": "Rejected",
+        "creationDate": 1638445405199,
+        "id": "RMKbLSi"
+      }
+    ],
+    "portfolioDetails": [
+      {
+        "title": "this is workinggg",
+        "totalPortfolios": 0,
+        "inProgress": 3,
+        "onHold": 0,
+        "status": "submitted",
+        "creationDate": 1638197953960,
+        "description": "this should work I hope so",
+        "id": "R-LWMqu"
+      },
+      {
+        "title": "Mohamed Moumen's idea for creating new stuff",
+        "totalPortfolios": 0,
+        "inProgress": 3,
+        "onHold": 0,
+        "status": "Accepted",
+        "creationDate": 1638445112903,
+        "description": "Desciptiontiption",
+        "id": "y5GlOPm"
+      },
+      {
+        "title": "New Name",
+        "totalPortfolios": 0,
+        "inProgress": 3,
+        "onHold": 0,
+        "status": "Rejected",
+        "creationDate": 1638445405199,
+        "description": "This is a new nameee",
+        "id": "RMKbLSi"
+      }
+    ],
+    "portfolioList": [
+      {
+        "portfolioTitle": "this is working",
+        "status": "submitted",
+        "numberOfPrograms": 0,
+        "creationDate": 1638197953960,
+        "statusBgColor": "bg-blue-200",
+        "statusTextColor": "text-blue-800",
+        "id": "R-LWMqu"
+      },
+      {
+        "portfolioTitle": "Mohamed Moumen's idea for creating new stuff",
+        "status": "Accepted",
+        "numberOfPrograms": 0,
+        "creationDate": 1638445112903,
+        "statusBgColor": "bg-blue-200",
+        "statusTextColor": "text-blue-800",
+        "id": "y5GlOPm"
+      },
+      {
+        "portfolioTitle": "New request for approval",
+        "status": "submitted",
+        "numberOfPrograms": 0,
+        "creationDate": 1638445278797,
+        "statusBgColor": "bg-blue-200",
+        "statusTextColor": "text-blue-800",
+        "id": "4ZYDIVx"
+      },
+      {
+        "portfolioTitle": "New Name",
+        "status": "Rejected",
+        "numberOfPrograms": 0,
+        "creationDate": 1638445405199,
+        "statusBgColor": "bg-blue-200",
+        "statusTextColor": "text-blue-800",
+        "id": "RMKbLSi"
+      }
+    ],
+    "DropDowns": [
+      {
+        "id": "1",
+        "programTypes": [
+          "Capex",
+          "EBU",
+          "CBU"
+        ],
+        "programCategory": [
+          "Capex",
+          "EBU",
+          "CBU"
+        ],
+        "programRelations": [
+          "Capex",
+          "EBU",
+          "CBU"
+        ],
+        "platforms": [
+          "Capex",
+          "EBU",
+          "CBU"
+        ],
+        "investmentHorizons": [
+          "Capex",
+          "EBU",
+          "CBU"
+        ],
+        "extentionOf": [
+          "Capex",
+          "EBU",
+          "CBU"
+        ],
+        "portfolio": [
+          "Capex",
+          "EBU",
+          "CBU"
+        ]
+      }
+    ]
+  }
